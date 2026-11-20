@@ -12,6 +12,8 @@ See :mod:`speaker_aware_eval.whos_who.formats` for the input format and run
   (``Roster``, whose ``resolve`` gives a ``Resolution``); ``words`` is how text is split
   into the words that are compared.
 - Label names: ``ERROR_LABELS`` (in precedence order) and ``ALL_LABELS``.
+- Write a right answer from a plain-text transcript: ``reference_from_text``,
+  ``reference_from_file`` (see :mod:`speaker_aware_eval.whos_who.reference`).
 - Converters for real sources live in :mod:`speaker_aware_eval.whos_who.adapters`.
 """
 
@@ -38,6 +40,17 @@ from .scoring import (
     words,
 )
 
+
+def __getattr__(name: str):
+    # Loaded on first use so `python -m speaker_aware_eval.whos_who.reference` does not find its
+    # own module already imported by this package (runpy warns about that).
+    if name in ("reference_from_file", "reference_from_text"):
+        from . import reference
+
+        return getattr(reference, name)
+    raise AttributeError(f"module {__name__!r} has no attribute {name!r}")
+
+
 # Kept private on purpose:
 # - `name_tokens`: one step inside name comparison. `Roster.resolve` is the supported way to
 #   compare a name; exporting the tokens would freeze an internal detail.
@@ -62,6 +75,8 @@ __all__ = [
     "load_truth",
     "parse_output",
     "parse_truth",
+    "reference_from_file",
+    "reference_from_text",
     "roster_for",
     "score",
     "summarize",

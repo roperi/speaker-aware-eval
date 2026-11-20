@@ -2,6 +2,16 @@
 
 All notable changes to this project are documented in this file.
 
+## [0.2.0] — 2026-11-20
+
+- A right answer can be written as plain text, one `Name: text` turn per line, and converted
+  to the JSON format with `reference_from_text`, `reference_from_file` or
+  `python -m speaker_aware_eval.whos_who.reference`. Aliases are given with a repeatable
+  `--alias "Name=alias1,alias2"` flag.
+- The README gains "Making a reference" and "Using it in CI" (two patterns, the exit codes
+  and the coverage bar).
+- The walkthrough notebook shows the plain-text format in Step 10.
+
 ## [0.1.0] — 2026-11-20
 
 - First public release of speaker-aware-eval: the who's-who scorer (word alignment,

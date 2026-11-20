@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "speaker-aware-eval"
-version = "0.1.0"
+version = "0.2.0"
 description = "Speaker-aware eval for AI output from multi-speaker conversations"
 authors = [{name = "roperi"}]
 license = {text = "MIT"}
