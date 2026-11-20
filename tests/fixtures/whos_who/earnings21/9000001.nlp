@@ -1,0 +1,12 @@
+token|speaker|ts|endTs|punctuation|case|tags|wer_tags
+Good|0||||UC|[]|[]
+morning|0||||LC|[]|[]
+everyone|0|||,|LC|[]|[]
+welcome|0||||LC|[]|[]
+to|0||||LC|[]|[]
+the|0||||LC|[]|[]
+call|0|||.|LC|[]|[]
+This|1||||UC|[]|[]
+is|1||||LC|[]|[]
+Dana|1||||UC|[]|[]
+Reyes|1|||.|UC|[]|[]

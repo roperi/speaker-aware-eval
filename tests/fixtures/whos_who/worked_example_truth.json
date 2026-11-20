@@ -1,0 +1,33 @@
+{
+  "conversation_id": "fernlake-001",
+  "people": [
+    {
+      "name": "Dana Reyes",
+      "aliases": [
+        "Dana",
+        "Agent"
+      ]
+    },
+    {
+      "name": "Omar Haddad",
+      "aliases": [
+        "Omar",
+        "Customer"
+      ]
+    }
+  ],
+  "turns": [
+    {
+      "speaker": "Dana Reyes",
+      "text": "Thanks for calling Fernlake. How can I help?"
+    },
+    {
+      "speaker": "Omar Haddad",
+      "text": "My router keeps dropping the connection."
+    },
+    {
+      "speaker": "Dana Reyes",
+      "text": "I'll schedule a technician for Thursday."
+    }
+  ]
+}

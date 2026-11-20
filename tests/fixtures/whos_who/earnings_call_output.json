@@ -1,0 +1,120 @@
+{
+  "conversation_id": "halvorsen-q3",
+  "turns": [
+    {
+      "voice": "V0",
+      "speaker": "Operator",
+      "text": "Good morning, and welcome to the Halvorsen Components third quarter earnings call. All participants are in listen-only mode. I will now hand the call to Marta Lindqvist, our chief executive."
+    },
+    {
+      "voice": "V1",
+      "speaker": "Lindqvist",
+      "text": "Thank you, operator, and good morning everyone. Revenue grew eight percent this quarter, driven by strong demand for our industrial sensors."
+    },
+    {
+      "voice": "V1",
+      "speaker": "Lindqvist",
+      "text": "We also opened our new plant in Poland, which is on budget and ahead of schedule."
+    },
+    {
+      "voice": "V2",
+      "speaker": "Tom Okafor",
+      "text": "Thanks, Marta. Gross margin was thirty eight percent, up two points, and we ended the quarter with strong cash flow."
+    },
+    {
+      "voice": "V5",
+      "speaker": "Speaker 5",
+      "text": "Looking ahead, we now expect full year revenue growth of seven to nine percent, and we are raising our outlook for the sensor business."
+    },
+    {
+      "voice": "V0",
+      "speaker": "Operator",
+      "text": "Our first question comes from Priya Raman at Fenwick Securities."
+    },
+    {
+      "voice": "V3",
+      "speaker": "Daniel Whitcombe",
+      "text": "Thanks for taking my question. Can you say more about demand from automotive customers?"
+    },
+    {
+      "voice": "V1",
+      "speaker": "Lindqvist",
+      "text": "Automotive orders rose twelve percent, and our backlog is at a record high."
+    },
+    {
+      "voice": "V0",
+      "speaker": "Operator",
+      "text": "Next is Daniel Whitcombe from Corvale Capital."
+    },
+    {
+      "voice": "V4",
+      "speaker": "Priya Raman",
+      "text": "Good morning. How much of the margin improvement came from pricing rather than lower material costs?"
+    },
+    {
+      "voice": "V2",
+      "speaker": "Tom Okafor",
+      "text": "About half came from pricing, and the rest from lower material costs and better factory utilisation."
+    },
+    {
+      "voice": "V0",
+      "speaker": "Operator",
+      "text": "The next question is from Sofia Marchetti at Larkspur Research."
+    },
+    {
+      "voice": "V2",
+      "speaker": "Tomas Okafor",
+      "text": "Will the new plant in Poland change your capital spending next year? And do you expect any delay in the ramp up?"
+    },
+    {
+      "voice": "V2",
+      "speaker": "Tom Okafor",
+      "text": "Capital spending should stay around four percent of revenue, and we see no delay in the ramp up."
+    },
+    {
+      "voice": "V0",
+      "speaker": "Operator",
+      "text": "The next question is from Hugo Brandt at Eastgate Partners."
+    },
+    {
+      "voice": "V6",
+      "speaker": "Hugo Brant",
+      "text": "Could you update us on share buybacks this quarter?"
+    },
+    {
+      "voice": "V2",
+      "speaker": "Tom Okafor",
+      "text": "We bought back two million dollars of shares and plan to continue."
+    },
+    {
+      "voice": "V7",
+      "speaker": "Unknown Speaker",
+      "text": "Sorry, could you repeat that last number?"
+    },
+    {
+      "voice": "V0",
+      "speaker": "Operator",
+      "text": "One more question, from Anika Sen at Eastgate Partners."
+    },
+    {
+      "voice": "V8",
+      "speaker": "Speaker 6",
+      "text": "Quick one on tariffs. Do you expect any impact next year?"
+    },
+    {
+      "voice": "V2",
+      "speaker": "Tom Okafor",
+      "text": "We expect a small impact, well inside our guidance."
+    },
+    {
+      "voice": "V1",
+      "speaker": "Lindqvist",
+      "text": "Thank you all for joining us today."
+    },
+    {
+      "voice": "V0",
+      "speaker": "Operator",
+      "text": "Thanks everyone, goodbye."
+    }
+  ]
+}

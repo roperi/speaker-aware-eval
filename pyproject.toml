@@ -1,0 +1,38 @@
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "speaker-aware-eval"
+version = "0.1.0"
+description = "Speaker-aware eval for AI output from multi-speaker conversations"
+authors = [{name = "roperi"}]
+license = {text = "MIT"}
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = []
+
+[project.optional-dependencies]
+dev = [
+    "ruff==0.17.3",
+    "nbclient>=0.10,<1",
+    "nbformat>=5.9,<6",
+    "ipykernel>=6",
+]
+# Open and run the walkthrough notebooks in notebooks/ (Jupyter, or VS Code with a kernel).
+notebooks = [
+    "ipykernel>=6",
+    "jupyterlab>=4,<5",
+]
+
+[tool.ruff]
+target-version = "py311"
+line-length = 100
+# Notebooks are teaching material, not package code. Vendored maintainer tooling (nasci skill, SDW projections) is not ours to lint.
+extend-exclude = ["*.ipynb", ".agents", ".sdw", ".claude", ".codex", ".opencode"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "N", "W"]
+
+[tool.setuptools.packages.find]
+include = ["speaker_aware_eval*"]

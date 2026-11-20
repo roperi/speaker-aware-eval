@@ -1,0 +1,20 @@
+{
+  "conversation_id": "fernlake-001",
+  "turns": [
+    {
+      "voice": "SPEAKER_00",
+      "speaker": "Dana Reyes",
+      "text": "Thanks for calling Fernlake. How can I help?"
+    },
+    {
+      "voice": "SPEAKER_01",
+      "speaker": "Omar Haddad",
+      "text": "My router keeps dropping the connection."
+    },
+    {
+      "voice": "SPEAKER_00",
+      "speaker": "Omar Haddad",
+      "text": "I'll schedule a technician for Thursday."
+    }
+  ]
+}

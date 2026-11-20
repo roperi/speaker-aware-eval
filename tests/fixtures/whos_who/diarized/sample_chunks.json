@@ -1,0 +1,24 @@
+{
+  "chunks": [
+    {
+      "speaker": "SPEAKER_00",
+      "timestamp": [0, 2.5],
+      "text": "Good morning everyone,"
+    },
+    {
+      "speaker": "SPEAKER_00",
+      "timestamp": [2.5, 4.0],
+      "text": "welcome to the call."
+    },
+    {
+      "speaker": "SPEAKER_01",
+      "timestamp": [4.0, 6.0],
+      "text": "This is Dana Reyes."
+    },
+    {
+      "speaker": "SPEAKER_02",
+      "timestamp": [6.0, 7.0],
+      "text": "Thanks."
+    }
+  ]
+}
